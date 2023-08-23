@@ -1,5 +1,4 @@
-
-import Dark from './darkmode'
+import Dark from './Darkmode'
 import Perfil from './Perfil'
 import Divisor from './Divisor'
 import Skills from './Skills'
@@ -27,9 +26,6 @@ import  kairi4  from '../assets/kairi/kairi4.jpg'
 import  kairi5  from '../assets/kairi/kairi5.jpg'
 import  kairi6  from '../assets/kairi/kairi6.jpg'
 import  kairi7  from '../assets/kairi/kairi7.jpg'
-
-
-
 
 function Navigator() {
   return (
