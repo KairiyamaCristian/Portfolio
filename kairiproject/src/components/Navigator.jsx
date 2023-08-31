@@ -59,16 +59,7 @@ function Navigator() {
         </TabPanel>
         <TabPanel>
         <Notionskills></Notionskills>
-          <Cards foto={kairi4}>
-            <Skills/>    
-          </Cards>
-          <Cards foto={kairi5}>
-            <Skills/>
-          </Cards>
           <Cards foto={kairi6}>
-            <Skills/>
-          </Cards>
-          <Cards foto={kairi7}>
             <Skills/>
           </Cards>
         </TabPanel>
