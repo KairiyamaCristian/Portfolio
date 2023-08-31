@@ -26,6 +26,9 @@ import  kairi4  from '../assets/kairi/kairi4.jpg'
 import  kairi5  from '../assets/kairi/kairi5.jpg'
 import  kairi6  from '../assets/kairi/kairi6.jpg'
 import  kairi7  from '../assets/kairi/kairi7.jpg'
+import Notion from './Notion'
+import Notionskills from './Notion_Skills'
+
 
 function Navigator() {
   return (
@@ -41,6 +44,7 @@ function Navigator() {
     <TabPanels >
         <TabPanel>
           <Cards foto={kairi}>
+            <Notion></Notion>
             <HeaderCard></HeaderCard>
             <Footer_Card></Footer_Card>
           </Cards>
@@ -54,6 +58,7 @@ function Navigator() {
           </Cards>
         </TabPanel>
         <TabPanel>
+        <Notionskills></Notionskills>
           <Cards foto={kairi4}>
             <Skills/>    
           </Cards>

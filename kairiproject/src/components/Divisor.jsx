@@ -73,7 +73,7 @@ function Divisor() {
             <Grid templateColumns='repeat(3, 1fr)' gap='1'>
             {ProyectsImgs.map((img, index) =>{
               return(
-                <Image key={`project-${index}`} src={img} alt='django'ref={btnRef} onClick={onOpen}/>
+                <Image width={240} height={240} key={`project-${index}`} src={img} alt='django'ref={btnRef} onClick={onOpen}/>
               )})
               }
             </Grid>
