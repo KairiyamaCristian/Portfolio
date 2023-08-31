@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getBooks = async () => {
     try {
         const response = await axios.get(
-            'http://localhost:3002/portafolio'
+            'http://localhost:3000/portafolio'
         );
 
         const data = response.data;
